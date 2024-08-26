@@ -1,9 +1,9 @@
 version: '3.8'
 
 services:
-  flightservice:
+  flightservice-toughjet:
     build: .
     ports:
-      - "8081:8081"
+      - "8082:8082"
     volumes:
-      - ./crazy-air.json:/app/crazy-air.json
+      - ./tough-jet.json:/app/tough-jet.json
